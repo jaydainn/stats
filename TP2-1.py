@@ -26,6 +26,6 @@ plt.show()
 
 plt.figure()
 plt.title("Loi Normale avec scipy")
-xval = np.arange(0,20,0.01)
-plt.plot(xval , norm.pdf(xval , 20/2 , 0.3))
+xval = np.arange(19,21,0.001)
+plt.plot(xval , norm.pdf(xval , (19+21)/2 , 0.3) * 1**4)
 plt.show()
